@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
-import { users } from "../models/usersModel";
+import { users } from "../models/usersModel.js";
 
 // get all users.
 export const getUsers = (req, res) => {
